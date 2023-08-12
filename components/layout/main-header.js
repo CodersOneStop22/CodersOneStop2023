@@ -1,14 +1,14 @@
 import Link from 'next/link';
-
+import HeaderNav from '../../components/header/header-nav.js';
 import classes from './main-header.module.css';
 
 function MainHeader() {
   return (
-    <header className={classes.header}>
-      <div className={classes.logo}>
+    <header>
+      {/* <div className={classes.logo}>
         <Link href='/'>Miladra OneStop Solutions</Link>
-      </div>
-      <nav className={classes.navigation}>
+      </div> */}
+      {/* <nav className={classes.navigation}>
         <ul>
           <li>
             <Link href='/courses'>Courses</Link>
@@ -17,7 +17,10 @@ function MainHeader() {
             <Link href='/projects'>Projects</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
+      <div>
+        <HeaderNav/>
+      </div>
     </header>
   );
 }
