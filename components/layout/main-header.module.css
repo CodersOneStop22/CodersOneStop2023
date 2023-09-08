@@ -1,41 +1,205 @@
-.header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 1rem 10%;
-  height: 5rem;
-  background-color: #202020;
+.home {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-arial);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
 }
-
-.logo {
-  font-size: 1.5rem;
-  color: white;
-  font-family: 'Fira', sans-serif;
-  height: 100%;
+.homeWrapper {
+  width: 43px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  color: #94fdfd;
+  justify-content: center;
 }
-
-.logo a {
-  text-decoration: none;
-  color: #94fdfd;
+.learnings {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-arial);
+  color: var(--color-white);
+  text-align: left;
 }
-
-.navigation a {
-  text-decoration: none;
-  color: #74dacc;
-  font-size: 1rem;
+.learningsWrapper,
+.projectsWrapper,
+.servicesWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 71px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-@media (min-width: 768px) {
-  .logo {
-    font-size: 2.5rem;
-  }
-
-  .navigation a {
-    font-size: 1.5rem;
-  }
+.projectsWrapper,
+.servicesWrapper {
+  width: 58px;
+}
+.servicesWrapper {
+  width: 62px;
+}
+.pricing {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-arial);
+  background: linear-gradient(91.62deg, #733ec7, #ca62db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+.pricingWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup {
+  position: absolute;
+  top: 22px;
+  left: 366px;
+  width: 517px;
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.groupIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 38.14px;
+  object-fit: cover;
+}
+.coders,
+.oneStop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 90px;
+  height: 22.96px;
+}
+.oneStop {
+  top: 22.14px;
+  font-size: 20px;
+  width: 85px;
+  height: 18.86px;
+}
+.codersParent {
+  position: relative;
+  width: 90px;
+  height: 41px;
+}
+.groupParent {
+  position: absolute;
+  top: -4px;
+  left: 113px;
+  width: 176px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 40px;
+  background-color: var(--color-white);
+  width: 79.73px;
+  height: 32px;
+  opacity: 0.8;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 29.23px;
+  border-radius: 33.33px;
+  background-color: var(--color-midnightblue);
+  width: 34.55px;
+  height: 26px;
+}
+.moon,
+.sunBright {
+  position: absolute;
+  top: 6px;
+  left: 37.21px;
+  display: inline-block;
+  width: 47.84px;
+}
+.sunBright {
+  left: 0;
+  color: var(--color-midnightblue);
+  width: 83.71px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 3px;
+  left: 11.96px;
+  width: 85.04px;
+  height: 26px;
+}
+.rectangleParent {
+  flex: 1;
+  position: relative;
+  height: 32px;
+}
+.register {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-arial);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.rightHeader,
+.signInWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.signInWrapper {
+  flex: 1;
+  border-radius: 8px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.rightHeader {
+  position: absolute;
+  top: 20px;
+  left: 1033px;
+  width: 331px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: var(--font-size-sm);
+}
+.frameParent {
+  width: 1364px;
+  height: 128px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-white);
+  font-family: var(--font-arial);
 }

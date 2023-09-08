@@ -1,19 +1,14 @@
 import Head from 'next/head';
+import Layout from '../components/layout/layout';
 
 
 
 function HomePage(props) {
+  
   return (
-    <div>
-      <Head>
-        <title>Miladra OneStop Solutions</title>
-        <meta
-          name='description'
-          content='Find a lot of great courses that allow you to evolve...'
-        />
-      </Head>
-      
-    </div>
+    <>
+      <h1>Home Page</h1>
+    </>
   );
 }
 

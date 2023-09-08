@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Font+Awesome+6+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Font+Awesome+6+Brands:wght@400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  margin: 0;
+  line-height: normal;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
+:root {
+  /* fonts */
+  --font-arial: Arial;
+
+  /* font sizes */
+  --font-size-base: 1rem;
+  --font-size-sm: 0.88rem;
+
+  /* Colors */
+  --color-white: #2d0909;
+  --color-midnightblue: #2e1752;
+}
