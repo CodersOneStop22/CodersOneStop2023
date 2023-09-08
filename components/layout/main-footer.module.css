@@ -1,78 +1,76 @@
 .coders,
 .oneStop {
   position: absolute;
+  top: 0;
   left: 0;
   display: inline-block;
-}
-.coders {
-  top: 0;
-  width: 5.63rem;
+  width: 91.45px;
 }
 .oneStop {
-  top: 1.69rem;
-  font-size: var(--font-size-xl);
-  width: 5.31rem;
+  top: 27px;
+  font-size: 20px;
+  width: 86.37px;
 }
-.codersParent {
-  position: absolute;
-  top: 0;
-  left: 4.03rem;
-  width: 5.63rem;
-  height: 3.13rem;
-}
+.codersParent,
 .groupIcon {
   position: absolute;
-  top: 0.38rem;
+  top: 0;
+  left: 65.55px;
+  width: 91.45px;
+  height: 50px;
+}
+.groupIcon {
+  top: 6px;
   left: 0;
-  width: 3.51rem;
-  height: 2.38rem;
+  width: 57.01px;
+  height: 38.14px;
   object-fit: cover;
 }
 .groupParent {
   position: absolute;
   top: 0;
   left: 0;
-  width: 9.66rem;
-  height: 3.13rem;
+  width: 157px;
+  height: 50px;
 }
 .leftIconInner {
   position: relative;
-  width: 9.66rem;
-  height: 3.13rem;
+  width: 157px;
+  height: 50px;
 }
 .aliquamOrciA {
   position: relative;
   font-size: var(--font-size-base);
-  line-height: 1.75rem;
+  line-height: 28px;
   display: inline-block;
-  width: 13.31rem;
+  width: 226px;
 }
 .leftIcon {
-  width: 18.06rem;
+  width: 280px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 1.56rem;
+  gap: 25px;
+  font-size: var(--font-size-5xl);
 }
-.company {
+.company1 {
   position: absolute;
   top: 0;
   left: 0;
-  line-height: 1.5rem;
+  line-height: 24px;
   display: inline-block;
-  width: 5.94rem;
+  width: 95px;
 }
-.careers,
-.fromTheBlog {
+.careers {
   text-decoration: none;
   position: relative;
-  line-height: 1.5rem;
+  line-height: 24px;
   color: inherit;
 }
 .careersParent {
   position: absolute;
-  top: 3rem;
+  top: 48px;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -83,93 +81,70 @@
 }
 .navListItem {
   position: relative;
-  width: 6.31rem;
-  height: 12.38rem;
+  width: 101px;
+  height: 198px;
 }
-.navListItemWrapper {
-  width: 10rem;
+.company {
+  width: 122px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start;
-  font-size: var(--font-size-3xl);
+  justify-content: space-between;
 }
-.learn {
+.learn1 {
   position: absolute;
   top: 0;
   left: 0;
-  line-height: 1.5rem;
+  line-height: 24px;
   display: inline-block;
-  width: 3.56rem;
+  width: 57px;
 }
 .navListItem1 {
   position: relative;
-  width: 7rem;
-  height: 12.38rem;
+  width: 112px;
+  height: 198px;
 }
-.navListItemContainer {
-  width: 9.19rem;
-  display: flex;
+.learn,
+.stayintouch {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: var(--font-size-3xl);
-}
-.copyright2023,
-.facebookF,
-.instagram {
-  position: relative;
-  display: inline-block;
-  flex-shrink: 0;
-}
-.copyright2023 {
-  font-size: var(--font-size-base);
-  line-height: 1.75rem;
-  font-family: var(--font-arial);
-  width: 19.63rem;
-}
-.facebookF,
-.instagram {
-  text-decoration: none;
-  color: inherit;
-  width: 0.94rem;
-}
-.instagram {
-  width: 1.31rem;
-}
-.footer,
-.leftIconParent {
-  display: flex;
-  flex-direction: row;
-}
-.footer {
-  background-color: var(--color-darkorchid);
-  padding: var(--padding-base) 7.5rem;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 24.25rem;
-  font-family: var(--font-font-awesome-6-brands);
-}
-.leftIconParent {
-  width: 85.38rem;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 6.31rem;
+  justify-content: space-between;
 }
-.frameParent {
-  position: relative;
-  width: 100%;
-  height: 25.38rem;
-  overflow: hidden;
+.learn {
+  width: 155px;
   display: flex;
-  flex-direction: column;
-  padding: 0.81rem 0;
+  align-items: flex-start;
+}
+.stayintouch {
+  border: 0;
+  font-family: var(--font-arial);
+  font-size: var(--font-size-3xl);
+  background-color: transparent;
+  width: 348px;
+  height: 198px;
+  padding: 10px 0;
   box-sizing: border-box;
-  align-items: center;
-  justify-content: flex-end;
+}
+.bigFooter,
+.bigFooterParent,
+.stayintouch {
+  display: flex;
+  align-items: flex-start;
+}
+.bigFooter {
+  align-self: stretch;
+  height: 303px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bigFooterParent {
+  width: 1466px;
+  flex-direction: column;
+  justify-content: center;
   text-align: left;
-  font-size: var(--font-size-5xl);
+  font-size: var(--font-size-3xl);
   color: var(--color-white);
   font-family: var(--font-arial);
 }

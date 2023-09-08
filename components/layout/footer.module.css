@@ -1,0 +1,35 @@
+.copyright2023 {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 28px;
+    font-family: var(--font-arial);
+  }
+  .facebookF,
+  .instagram {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    width: 43px;
+    flex-shrink: 0;
+  }
+  .instagram {
+    width: 40px;
+  }
+  .footer {
+    background-color: #733ec7;
+    width: 1466px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 16px 30px;
+    box-sizing: border-box;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-font-awesome-6-brands);
+  }
+  
