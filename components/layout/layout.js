@@ -1,14 +1,19 @@
-import { Fragment } from 'react';
+import { Fragment } from "react";
 
-import MainHeader from './main-header';
-import Provider from '../../context/AuthContext';
-import ToasterContext from '../../context/oasterContext';
+import MainHeader from "./main-header";
+import Provider from "../../context/AuthContext";
+import ToasterContext from "../../context/oasterContext";
 
 function Layout(props) {
   return (
     <Fragment>
       <MainHeader />
-      <main><Provider><ToasterContext />{props.children}</Provider></main>
+      <main>
+        <Provider>
+          <ToasterContext />
+          {props.children}
+        </Provider>
+      </main>
     </Fragment>
   );
 }

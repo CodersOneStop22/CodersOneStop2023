@@ -1,6 +1,4 @@
-import Head from 'next/head';
-
-
+import Head from "next/head";
 
 function HomePage(props) {
   return (
@@ -8,15 +6,12 @@ function HomePage(props) {
       <Head>
         <title>Miladra OneStop Solutions</title>
         <meta
-          name='description'
-          content='Find a lot of great courses that allow you to evolve...'
+          name="description"
+          content="Find a lot of great courses that allow you to evolve..."
         />
       </Head>
-      
     </div>
   );
 }
-
-
 
 export default HomePage;
