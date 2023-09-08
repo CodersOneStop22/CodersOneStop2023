@@ -1,0 +1,29 @@
+[
+    {
+      "id": "1",
+      "title": "Is Python a compiled language or an interpreted language?",
+      "content": "Python is a language that combines elements of both compilation and interpretation. When we run our code, the compilation process occurs first, generating bytecode internally. This bytecode is then converted by the Python virtual machine (PVM) to run on the specific platform, which includes the combination of the machine and operating system.",
+      
+      "img" : "/"
+    },
+    {
+      "id": "2",
+      "title": "What is the difference between a Mutable datatype and an Immutable data type?",
+      "content": "Mutable data types are capable of being modified during runtime, meaning they can be changed or updated. Examples of mutable data types include lists,dictionaries, and similar structures.On the other hand, immutable data types cannot be edited or altered once they are created. They remain unchanged throughout the runtime. Immutable data types include strings, tuples, and similar constructs."
+    },
+    {
+      "id": "3",
+      "title": "What is a lambda function?",
+      "content": "A lambda function is a type of function that is anonymous, meaning it doesn&#39;t have a specific name. It can accept any number of parameters, but it is limited to having only one statement within its body."
+    },
+    {
+      "id": "4",
+      "title": "How is Exceptional handling done in Python?",
+      "content": "There are three primary keywords in Python: try, except, and finally. These keywords are used to handle exceptions and implement error recovery mechanisms."
+    },
+    {
+      "id": "5",
+      "title": "Can we Pass a function as an argument in Python?",
+      "content": "A function in Python can receive multiple arguments, which can include objects, variables of various data types, and even other functions. Functions are treated as objects in Python, allowing them to be passed as parameters to other functions. This ability to pass functions as arguments to other functions is a characteristic of higher-order functions."
+    }
+  ]
