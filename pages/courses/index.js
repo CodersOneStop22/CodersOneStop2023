@@ -1,11 +1,10 @@
-import { Fragment } from 'react';
-import { useRouter } from 'next/router';
-import Head from 'next/head';
+import { Fragment } from "react";
+import { useRouter } from "next/router";
+import Head from "next/head";
 
-import { getAllEvents } from '../../helpers/api-util';
+import { getAllEvents } from "../../helpers/api-util";
 
-
-import CoursesList from '../../components/courses/courses-list'
+import CoursesList from "../../components/courses/courses-list";
 
 function AllCoursesPage(props) {
   const router = useRouter();
@@ -25,8 +24,8 @@ function AllCoursesPage(props) {
       <Head>
         <title>All Courses</title>
         <meta
-          name='description'
-          content='Find a lot of great courses that allow you to evolve...'
+          name="description"
+          content="Find a lot of great courses that allow you to evolve..."
         />
       </Head>
       <CoursesList></CoursesList>
@@ -41,7 +40,7 @@ export async function getStaticProps() {
     props: {
       events: events,
     },
-    revalidate: 60
+    revalidate: 60,
   };
 }
 
