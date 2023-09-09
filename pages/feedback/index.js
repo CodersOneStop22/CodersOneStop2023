@@ -1,18 +1,19 @@
 import Head from "next/head";
-import Login from "./login";
-function HomePage(props) {
+import Feedback from "../../components/feedback/feedback";
+
+function FeedbackPage(props) {
   return (
     <div>
       <Head>
-        <title>Miladra OneStop Solutions</title>
+        <title>Feedback and Address- Miladra OneStop Solutions</title>
         <meta
           name="description"
           content="Find a lot of great courses that allow you to evolve..."
         />
       </Head>
-      <Login></Login>
+      <Feedback />
     </div>
   );
 }
 
-export default HomePage;
+export default FeedbackPage;
