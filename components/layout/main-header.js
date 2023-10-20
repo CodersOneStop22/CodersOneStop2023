@@ -1,8 +1,6 @@
-import Head from "next/head";
 import styles from "./main-header.module.css";
 
-
-const MainHeader = () => {
+const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
@@ -30,19 +28,16 @@ const MainHeader = () => {
         </div>
       </nav>
       <div className={styles.signinregister}>
-      <input className={styles.dark} checked={true} type="radio" />
-      <button className={styles.register}>
+        <input className={styles.dark} checked={true} type="radio" />
+        <button className={styles.register}>
           <div className={styles.signIn}>Register</div>
         </button>
-        
-      <button >
-        <div className={styles.signin}>
+        <button className={styles.signin}>
           <div className={styles.signIn}>Sign In</div>
-        </div>
-      </button>
+        </button>
       </div>
     </header>
   );
 };
 
-export default MainHeader;
+export default Header;

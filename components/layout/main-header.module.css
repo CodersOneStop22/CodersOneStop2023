@@ -12,7 +12,9 @@
 }
 .oneStop {
   font-size: 20px;
+  display: inline-block;
   font-weight: 700;
+  width: 96px;
 }
 .codersParent,
 .homeWrapper,
@@ -30,7 +32,7 @@
   flex-direction: row;
 }
 .logo {
-  width: 152.99px;
+  width: 170px;
   flex-wrap: wrap;
   gap: 12px;
 }
@@ -48,18 +50,18 @@
 .navbar,
 .register {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
 }
 .navbar {
   margin: 0;
-  width: 497px;
+  width: 601px;
   height: 34px;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 40px;
+  justify-content: center;
+  gap: 25px;
   text-align: left;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   color: var(--color-white);
   font-family: var(--font-arial);
 }
@@ -68,7 +70,7 @@
   cursor: pointer;
   flex: 1;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
 }
 .register {
   border: 0;
@@ -79,7 +81,7 @@
 .signIn {
   flex: 1;
   position: relative;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-sm);
   font-family: var(--font-arial);
   color: var(--color-white);
   text-align: left;
@@ -87,33 +89,34 @@
 .signin {
   flex: 1;
   border-radius: 8px;
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
+  padding: var(--padding-3xs);
   align-items: center;
   justify-content: flex-start;
 }
 .header,
+.signin,
 .signinregister {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 .signinregister {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  width: 299px;
+  width: 295px;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
 }
 .header {
-  width: 1366px;
+  width: 1266px;
   overflow: hidden;
-  padding: 13px 82px;
+  padding: 13px var(--padding-3xs);
   box-sizing: border-box;
   align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
   text-align: left;
   font-size: 24px;
   color: var(--color-white);

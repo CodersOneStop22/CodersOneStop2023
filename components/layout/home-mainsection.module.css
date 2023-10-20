@@ -1,0 +1,204 @@
+.potential {
+    background: linear-gradient(91.62deg, #733ec7, #ca62db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .unlockYourCodingContainer {
+    flex: 1;
+    position: relative;
+  }
+  .homeNeck {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+  .getCodingAssistance {
+    flex: 1;
+    position: relative;
+    line-height: 34px;
+  }
+  .getCodingAssistanceAndImprWrapper,
+  .searchBar {
+    width: 961px;
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    font-size: 12px;
+  }
+  .searchBar {
+    border: 0;
+    font-family: var(--font-baghdad);
+    font-size: 10px;
+    background-color: transparent;
+    width: 704px;
+    height: 38px;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 2;
+  }
+  .image62Icon {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 41.14px;
+    object-fit: cover;
+  }
+  .learning {
+    position: relative;
+    display: inline-block;
+    width: 94px;
+    flex-shrink: 0;
+  }
+  .image62Parent {
+    text-decoration: none;
+    border-radius: var(--br-base);
+    background-color: var(--color-dimgray);
+    width: 204px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 26.067171096801758px 19.857139587402344px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+    color: inherit;
+  }
+  .image63Icon {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 32px;
+    object-fit: cover;
+  }
+  .projects {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    flex-shrink: 0;
+  }
+  .image63Parent {
+    text-decoration: none;
+    border-radius: var(--br-base);
+    background-color: var(--color-dimgray);
+    width: 204px;
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 26.06710433959961px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-10xl);
+    color: inherit;
+  }
+  .image64Icon {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+  }
+  .services {
+    position: relative;
+    display: inline-block;
+    width: 95px;
+    flex-shrink: 0;
+  }
+  .image64Parent {
+    text-decoration: none;
+    border-radius: var(--br-base);
+    background-color: var(--color-dimgray);
+    width: 204px;
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 26.066890716552734px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+    color: inherit;
+  }
+  .pricing {
+    position: relative;
+    display: inline-block;
+    width: 78px;
+    flex-shrink: 0;
+  }
+  .iconheader,
+  .image65Parent {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: inherit;
+  }
+  .image65Parent {
+    border-radius: var(--br-base);
+    background-color: var(--color-dimgray);
+    width: 204px;
+    height: 71px;
+    padding: 0 26.066890716552734px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: var(--gap-10xl);
+  }
+  .iconheader {
+    width: 883px;
+    height: 80px;
+    align-items: flex-start;
+    gap: 15px;
+    z-index: 3;
+    text-align: left;
+    font-size: var(--font-size-sm);
+  }
+  .homeMainSectionChild,
+  .pngegg1Icon {
+    position: absolute;
+    margin: 0 !important;
+    max-height: 100%;
+  }
+  .pngegg1Icon {
+    height: calc(100% - 320.38px);
+    top: 173.38px;
+    right: 29.76px;
+    bottom: 147px;
+    width: 180.68px;
+    object-fit: cover;
+    z-index: 4;
+  }
+  .homeMainSectionChild {
+    height: calc(100% - 400.27px);
+    top: 192.61px;
+    right: 0;
+    bottom: 207.66px;
+    width: 124.38px;
+    z-index: 5;
+  }
+  .homeMainSection {
+    width: 1266px;
+    height: 432px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 27px 30px 0 var(--padding-xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    gap: 58px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-lavenderblush);
+    font-family: var(--font-arial);
+  }
+  

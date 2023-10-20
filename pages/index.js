@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Login from "./login";
+import HomeMainSection from "../components/layout/home-mainsection"
 function HomePage(props) {
   return (
     <div>
@@ -10,7 +11,8 @@ function HomePage(props) {
           content="Find a lot of great courses that allow you to evolve..."
         />
       </Head>
-      <Login></Login>
+     <HomeMainSection />
+      
     </div>
   );
 }

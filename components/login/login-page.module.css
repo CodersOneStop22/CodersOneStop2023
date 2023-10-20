@@ -1,0 +1,196 @@
+.pleaseLoginTo {
+    position: relative;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    display: inline-block;
+    width: 295px;
+  }
+  .usernameinput {
+    border: 0;
+    font-family: var(--font-arial);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs);
+    align-items: center;
+    justify-content: center;
+  }
+  .passwordinput,
+  .usernameinputParent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .passwordinput {
+    border: 0;
+    font-family: var(--font-arial);
+    font-size: var(--font-size-base);
+    background-color: transparent;
+    flex-direction: row;
+    padding: var(--padding-3xs);
+  }
+  .usernameinputParent {
+    height: 99px;
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .rememberMe {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-arial);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 100.25px;
+    flex-shrink: 0;
+  }
+  .rememberMeWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs);
+    align-items: center;
+    justify-content: center;
+  }
+  .forgotPassword {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-arial);
+    color: var(--color-darkorchid);
+    text-align: left;
+    display: inline-block;
+    width: 121.51px;
+    flex-shrink: 0;
+  }
+  .forgotPasswordWrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs);
+    background-color: transparent;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .frameParent,
+  .userdetails {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent {
+    align-self: stretch;
+    height: 46px;
+    flex-direction: row;
+    gap: 13px;
+  }
+  .userdetails {
+    width: 497px;
+    flex-direction: column;
+  }
+  .signIn {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-arial);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .loginbtn {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-5xl);
+    background-color: var(--color-darkorchid);
+    border-radius: var(--br-5xs);
+    width: 501px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .googleChild {
+    position: relative;
+    width: 17.59px;
+    height: 18px;
+  }
+  .google {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-5xl);
+    background-color: var(--color-dimgray);
+    border-radius: var(--br-5xs);
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-3xs);
+  }
+  .facebook1 {
+    font-family: var(--font-font-awesome-5-brands);
+    color: var(--color-steelblue-100);
+  }
+  .facebook1,
+  .github1,
+  .linkedinIn,
+  .withFacebook {
+    position: relative;
+    font-size: var(--font-size-base);
+    text-align: left;
+  }
+  .withFacebook {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    font-family: var(--font-arial);
+    color: var(--color-white);
+    display: inline-block;
+  }
+  .github1,
+  .linkedinIn {
+    font-family: var(--font-font-awesome-5-brands);
+    color: var(--color-steelblue-200);
+  }
+  .github1 {
+    color: var(--color-white);
+  }
+  .signUp {
+    font-weight: 700;
+    color: var(--color-darkorchid);
+  }
+  .alreadyHaveAnContainer {
+    position: relative;
+  }
+  .loginpage,
+  .sociallogins {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sociallogins {
+    width: 501px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+    font-size: var(--font-size-base);
+    font-family: var(--font-arial);
+  }
+  .loginpage {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  

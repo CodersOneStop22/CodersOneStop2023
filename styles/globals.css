@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+root {
+    /* fonts */
+    --font-arial: Arial;
+    --font-font-awesome-5-brands: "Font Awesome 5 Brands";
+    --font-arial-black: "Arial Black";
+    --font-arial-hebrew: "Arial Hebrew";
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-base: 1rem;
+    --font-size-5xl: 1.5rem;
+  
+    /* Colors */
+    --color-gray: #08040c;
+    --color-darkorchid: #733ec7;
+    --color-white: #fff;
+    --color-dimgray: rgba(107, 107, 107, 0.1);
+    --color-steelblue-100: #415e9b;
+    --color-steelblue-200: #016fab;
+    --color-darkslateblue: #3b2662;
+  
+    /* Gaps */
+    --gap-base: 1rem;
+    --gap-3xs: 0.63rem;
+    --gap-mini: 0.94rem;
+  
+    /* Paddings */
+    --padding-3xs: 0.63rem;
+    --padding-sm: 0.88rem;
+    --padding-5xl: 1.5rem;
+    --padding-smi: 0.81rem;
+    --padding-xl: 1.25rem;
+  
+    /* Border radiuses */
+    --br-13xl: 32px;
+    --br-5xs: 8px;
+  }
+  

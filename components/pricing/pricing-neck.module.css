@@ -1,0 +1,56 @@
+.pricing {
+    background: linear-gradient(91.25deg, #733ec7, #ca62db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .loremIpsumDolor,
+  .simpleTransparentPricingContainer {
+    align-self: stretch;
+    position: relative;
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+  }
+  .simpleTransparentPricingParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+  }
+  .monthly {
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+  }
+  .radiomonthlyannuallyIcon {
+    position: relative;
+    border-radius: 20px;
+    width: 74px;
+    height: 33px;
+  }
+  .pricingNeck,
+  .switch {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .switch {
+    width: 264px;
+    flex-direction: row;
+    gap: 21px;
+    text-align: left;
+    font-size: var(--font-size-lg);
+  }
+  .pricingNeck {
+    width: 1071px;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    font-size: 36px;
+    color: var(--neutral-100);
+    font-family: var(--font-arial);
+  }
+  
